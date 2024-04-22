@@ -1,0 +1,18 @@
+#!/bin/sh
+# Color less
+export LESS='-R --use-color -Dd+r$Du+b$'
+
+# ArchWiki man pages coloring hack
+export MANPAGER="less -R --use-color -Dd+r -Du+b"
+export MANROFFOPT="-P -c"
+
+export EDITOR="nvim"
+
+# Command coloring
+alias diff='diff --color=auto'
+alias grep='grep --color=auto'
+alias ip='ip --color=auto'
+alias ls='ls --color=auto'
+
+# Portable dotfiles
+alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
