@@ -1,0 +1,59 @@
+{
+  "parser-directories": [
+    "/home/jcat/github",
+    "/home/jcat/src",
+    "/home/jcat/source",
+    "/home/jcat/projects",
+    "/home/jcat/dev",
+    "/home/jcat/git"
+  ],
+  "theme": {
+    "embedded": null,
+    "number": {
+      "bold": true,
+      "color": 94
+    },
+    "constant.builtin": {
+      "color": 94,
+      "bold": true
+    },
+    "attribute": {
+      "color": 124,
+      "italic": true
+    },
+    "constant": 94,
+    "function.builtin": {
+      "color": 26,
+      "bold": true
+    },
+    "function": 26,
+    "property": 124,
+    "punctuation.delimiter": 239,
+    "tag": 18,
+    "type.builtin": {
+      "color": 23,
+      "bold": true
+    },
+    "keyword": 56,
+    "string": 28,
+    "constructor": 136,
+    "operator": {
+      "color": 239,
+      "bold": true
+    },
+    "comment": {
+      "color": 245,
+      "italic": true
+    },
+    "variable.builtin": {
+      "bold": true
+    },
+    "string.special": 30,
+    "type": 23,
+    "punctuation.bracket": 239,
+    "variable.parameter": {
+      "underline": true
+    },
+    "module": 136
+  }
+}
