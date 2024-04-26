@@ -24,6 +24,9 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
+bindkey '\e[A' history-search-backward
+bindkey '\e[B' history-search-forward
+
 autoload -Uz promptinit
 promptinit
 prompt suse
